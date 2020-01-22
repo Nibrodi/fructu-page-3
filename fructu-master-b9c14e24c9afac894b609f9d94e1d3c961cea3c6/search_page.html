@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Rufina:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.structure.css">
+  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"</script>
+   <script src="js/jquery-ui.js"></script>
+   <script src="js/jquery-ui.min.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+  <script src="js/index.js"></script>
+
+  <title>Client Page</title>
+</head>
+<body>
+  <header class="client-header">
+    <div class="client-container">
+    <nav class="client-menu">
+      <ul class="client-ul">
+        <li><a href="#">Пункт меню 1</a></li>
+        <li><a href="#">Пункт меню 2</a></li>
+        <li><a href="#">Пункт меню 3</a></li>
+        <li><a href="#">Пункт меню 4</a></li>
+        <li><a href="#">Пункт меню 5</a></li>
+        <li><a href="#">Пункт меню 6</a></li>
+      </ul>
+    </nav>
+    <div class="header-client-flex-cont">
+      <div class="header-client-flex-box"><a href="#"><img src="img/logo.svg" alt="logo"></a></div>
+      <div class="header-client-flex-box-h">
+        <h1><a href="#">Fructu</a></h1>
+        <p>АНАЛИЗИРУЮ НЕДВИЖИМОСТЬ</p>
+      </div>
+      <div class="header-client-flex-box-search">
+        <form>
+          <!-- <form action="/action_page.php">--><input type="text" placeholder="Search shots..." name="search"><button
+            type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="header-client-flex-box-call-info">
+        <p><img src="img/blue_call.svg" alt="tel"><a href="tel:+735225-25-25">Заказать звонок</a></p><a
+          href="tel:+735225-25-25">+7(352)-25-25-25</a>
+      </div>
+      <div class="header-client-flex-box info-client">
+        <div class="user-pic"><img src="img/user_pic.svg" alt="user-pic"></div>
+        <div class="name-user">Иван Николаевич</div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <main>
+      <div class="search-container">
+          <div class="search-h">
+              <p>Форма поиска</p>
+          </div>
+          <div class="tabs-search">
+            <div class="tabs">
+              <div class="tab">
+               <input type="radio" id="tab1" name="tab-group" checked>
+               <label for="tab1" class="tab-title tab-left">Основное</label> 
+               <section class="tab-content">
+                <div class="flex-search-info">
+                  <div class="tabs-search">
+                      
+                  </div>
+                  <div class="search-item">
+                      <h2>1. В каком районе вы хотите жить?</h2>
+                      <div class="checkbox-search">
+                          <fieldset>
+                            <div class="checkbox-flex">
+                              <div class="block-info">
+                                
+                            <label><input type="checkbox" name="SAO"> Север (САО)</label>
+                            <label><input type="checkbox" name="SVAO"> Северо-Восток (СВАО)</label>
+                            <label><input type="checkbox" name="VAO"> Восток (ВАО)</label>
+                            <label><input type="checkbox" name="YVAO"> Юго-восток (ЮВАО)</label>
+                          </div>
+                          <div class="block-info">
+                            <label><input type="checkbox" name="YAO"> Юг (ЮАО)</label>
+                            <label><input type="checkbox" name="YZAO"> Юго-запад (ЮЗАО)</label>
+                            <label><input type="checkbox" name="VAO"> Восток (ВАО)</label>
+                            <label><input type="checkbox" name="ZAO"> Запад (ЗАО)</label>
+                            </div>
+                            <div class="block-info"><label><input type="checkbox" name="CAO"> Центральный (ЦАО)</label>
+                            <label><input type="checkbox" name="NAO"> Новая Москва (НАО)</label>
+                            <label><input type="checkbox" name="TAO"> Троицкий (ТАО)</label>
+                           
+                            <label><input type="checkbox" name="ZELAO"> Зеленоградский (ЗелАО)</label>
+                          </div></div>
+                          </fieldset>
+                      </div>
+                      <div class="dicription-metro-list">
+                          <div class="dicription">
+                              <img src="img/local.svg" alt="local">
+                              <a href="#" id="opener">Отметить район на карте</a>
+
+                              <div id="dialog">
+                                <img src="img/test_map.png" alt="map">
+                              </div>
+
+                          </div>
+                          <div class="metro-list">
+                              <img src="img/red_metro_search.svg" alt="metro">
+                              <a href="#" id="opener-metro">Выбрать по станции метро</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="search-item search-metro">
+                      <div class="info-work">
+                          <h3>2. В каком районе вы работаете?</h3>
+                          <!-- !!данные по метро надо будет выгрузить с api http://datalytics.ru/all/kak-poluchit-spisok-stanciy-moskovskogo-metropolitena-po-api/ -->
+      
+                          <select class="js-example-basic-multiple metro-select" name="metro[]" multiple="multiple">
+                            <option disabled>А</option>
+                            <option value="AL">Алтуфьево</option>
+                            <option value="AE">Аэропорт</option>
+                            <option value="AG">Александровский сад</option>
+                            <!-- !!то что diasabled является заголовком -->
+                            <option disabled>Б</option>
+                            <option value="BAL">Балтийская</option>
+                            <option value="BEL">Беломорская</option>
+                            <option disabled>В</option>
+                            <option value="VOD">Водный стадион</option>
+                            <option value="VIS">Выставочная</option>
+                            <option disabled>Т</option>
+                            <option value="TV">Тверская</option>
+                            <option value="TEX">Текстильщики</option>
+                          </select>
+                      </div>
+                      <div class="place-info">
+                        <h3>3. В каком районе вы проживаете сейчас?</h3>
+                        <select class="js-example-basic-multiple metro-select" name="metro[]" multiple="multiple">
+                          <option disabled>А</option>
+                          <option value="AL">Алтуфьево</option>
+                          <option value="AE">Аэропорт</option>
+                          <option value="AG">Александровский сад</option>
+                          <!-- !!то что diasabled является заголовком -->
+                          <option disabled>Б</option>
+                          <option value="BAL">Балтийская</option>
+                          <option value="BEL">Беломорская</option>
+                          <option disabled>В</option>
+                          <option value="VOD">Водный стадион</option>
+                          <option value="VIS">Выставочная</option>
+                          <option disabled>Т</option>
+                          <option value="TV">Тверская</option>
+                          <option value="TEX">Текстильщики</option>
+                        </select>
+                      </div>
+                      <div class="friend-place">
+                        <h3>4. В каком районе живут ваши родные и друзья?</h3>
+                        <select class="js-example-basic-multiple metro-select" name="metro[]" multiple="multiple">
+                          <option disabled>А</option>
+                          <option value="AL">Алтуфьево</option>
+                          <option value="AE">Аэропорт</option>
+                          <option value="AG">Александровский сад</option>
+                          <!-- !!то что diasabled является заголовком -->
+                          <option disabled>Б</option>
+                          <option value="BAL">Балтийская</option>
+                          <option value="BEL">Беломорская</option>
+                          <option disabled>В</option>
+                          <option value="VOD">Водный стадион</option>
+                          <option value="VIS">Выставочная</option>
+                          <option disabled>Т</option>
+                          <option value="TV">Тверская</option>
+                          <option value="TEX">Текстильщики</option>
+                        </select>
+                      </div>
+                  </div>
+                  <div class="search-item child-old-flex">
+                    <div class="child-info">
+                        <h3>5. У вас есть дети?</h3>
+                        <div class="toggle-flex">
+                        <label class="switch">
+                         <input type="checkbox" id="agree-child">
+                          <span class="slider"></span>
+                        </label>
+                        <div class="age-child">
+                          <div class="flex-age">
+                          <p>Возраст:</p>
+                          <input type="text">
+                          </div>
+                          <a href="#" id=add-child>+ еще ребенок</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="old-people-info">
+                      <h3>6. У Вас есть престарелые родственники, которые планируют проживать с вами?</h3>
+                      <label class="switch">
+                         <input type="checkbox">
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="search-item money-info-flex">
+                    <div class="buy-info">
+                      <h3>7. Ипотека или покупка сразу?</h3>
+                      <label><input type="checkbox" name="mortgage"> Ипотека</label>
+                      <label><input type="checkbox" name="buy"> Покупка сразу</label>
+                    </div>
+                    <div class="budget">
+                      <h3>8. Планируемый бюджет:</h3>
+          
+                      <div id="slider-range"></div>  
+
+                      <p>
+                          От:
+                        <input type="text" readonly id="amount-one">
+                        До:
+                        <input type="text" readonly id="amount-two">
+                      </p>
+                                      </div>
+                  </div>
+              </div>
+
+
+               </section>
+              </div> 
+              <div class="line-block"></div>
+              <div class="tab">
+               <input type="radio" id="tab2" name="tab-group">
+               <label for="tab2" class="tab-title">Предпочитаемая инфраструктура</label> 
+               <section class="tab-content">
+                <div class="search-item">
+                  <h2>9. Образование</h2>
+                  <div class="checkbox-search">
+                      <fieldset>
+                        <div class="checkbox-flex">
+                          <div class="block-info">
+                        <label><input type="checkbox" name="SAO"> Школа поблизости</label>
+                        <label><input type="checkbox" name="SVAO"> До школы без переходов через дорогу</label>
+                        <label><input type="checkbox" name="VAO"> Детский сад рядом</label>
+                        <label><input type="checkbox" name="YVAO"> До сада без подземных/надземных переходов</label>
+                      </div>
+                      <div class="block-info">
+                        <label><input type="checkbox" name="YAO"> Школа Мантессори</label>
+                        <label><input type="checkbox" name="YZAO"> Сад Мантессори</label>
+                        <label><input type="checkbox" name="VAO"> Художественная школа</label>
+                        <label><input type="checkbox" name="ZAO"> Музыкальная школа</label>
+                        </div>
+                        <div class="block-info"><label><input type="checkbox" name="CAO"> Школа танцев</label>
+                        <label><input type="checkbox" name="NAO"> Спортивные единоборства</label>
+                        <label><input type="checkbox" name="TAO"> Школа/сад для детей с ограниченными способностями</label>
+                        <label><input type="checkbox" name="ZELAO"> Церковно-приходская школа</label>
+                      </div></div>
+                      </fieldset>
+                  </div>
+                </div>
+                <div class="search-item">
+                  <h3>10. Предпочитаемые магазины</h3>
+                  <div class="store-love">
+                    <a href="#" class="a-item store-btn">Ашан</a>
+                    <a href="#" class="a-item store-btn">Ароматный мир</a>
+                    <a href="#" class="a-item store-btn">Красное и белое</a>
+                    <select class="js-example-basic-multiple store-select" name="store[]" multiple="multiple">
+                      <option disabled>А</option>
+                      <option value="AZ">Азбука вкуса</option>
+                      <option value="ATAK">Атак</option>
+                      <!-- !!то что diasabled является заголовком -->
+                      <option disabled>В</option>
+                      <option value="VKYS" selected>Вкусвилл</option>
+                      <option disabled>M</option>
+                      <option value="MT">METRO</option>
+                      <option value="MG">Магнит</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="search-item">
+                  <h3>11. Предпочитаемые кафе и заведения общественного питания:</h3>
+                  <div class="store-bar">
+                    <a href="#" class="a-item">Бар синяя вобла</a>
+                    <a href="#" class="a-item">Бар красная вобла</a>
+                    <a href="#" class="a-item">Бар белая вобла</a>
+                    <select class="js-example-basic-multiple bar-select" name="bar[]" multiple="multiple">
+                      <option disabled>Б</option>
+                      <option value="BD">Бобби Дэззлер</option>
+                      <option disabled>В</option>
+                      <option value="B">Bamboo Bar</option>
+                      <!-- !!то что diasabled является заголовком -->
+                      <option disabled>С</option>
+                      <option value="S" selected>Стрелка</option>
+                      <option disabled>M</option>
+                      <option value="MOL">Молодёжъ</option>
+                      <option disabled>Н</option>
+                      <option value="NIK">Никуда не едем</option>
+                      
+                    </select>
+                  </div>
+                </div>
+                <div class="search-item">
+                  <h3>12. Предпочитаемые сервисы:</h3>
+                  <div class="store-service">
+                    <a href="#" class="a-item">Барбер шоп</a>
+                    <a href="#" class="a-item">Интим шоп</a>
+                    <select class="js-example-basic-multiple service-select" name="service[]" multiple="multiple">
+                      <option disabled>В</option>
+                      <option value="B">Borodach</option>
+                      <!-- !!то что diasabled является заголовком -->
+                      <option disabled>С</option>
+                      <option value="F">Стрижка-вспышка</option>
+                      <option disabled>T</option>
+                      <option value="TOP" selected>TOP GUN</option>
+                      <option disabled>П</option>
+                      <option value="PAR">Парикмахерская №1</option>
+                      
+                    </select>
+                  </div>
+                </div>
+                  
+               </section>
+              </div>
+              <div class="line-block"></div>
+              <div class="tab">
+               <input type="radio" id="tab3" name="tab-group">
+               <label for="tab3" class="tab-title">О доме</label> 
+               <section class="tab-content">Скоро здесь будет контент ;)</section> 
+              </div> 
+             </div>
+          </div>
+
+      </div>
+  </main>
+  </body>
+  </html>
